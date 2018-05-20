@@ -1,0 +1,21 @@
+1 How do we measure the length of the critical rendering path? (10 pts)
+iii. By counting the number of all external resources that must be loaded
+
+
+2. What are the events in the Timeline pane which show the DOM being built, the CSSOM being built, and the render tree being built? (10 pts)
+i. Parse HTML, Parse CSS, Layout
+ 
+
+3. What is the render tree? (10 pts)
+The render tree is the combination of HTML and CSS and is responsible for locating all the elements in its position.
+
+4. What are three things you can do in order to speed up a website's load time? (10 pts)
+We can minify the file and reduce its size, we should also compress the file,
+remuve unnecessary styles. Do not use inline javascript. No more than one external CSS file.
+
+
+5. What is the name of the Google tool you can use to see a list of things you can do to improve your page's load speed? (10 pts)
+Development tools
+
+6. What is the purpose of including multiple <source> elements within a single <video> element?
+To make shure that it will run in different browsers with any problem.
